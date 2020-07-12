@@ -13,6 +13,10 @@ body {
     font-size: medium;
     
 }
+h2 {
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
 
 nav {
     width: 100%;
@@ -29,6 +33,7 @@ ul {
     flex-wrap: wrap;
 
 }
+
 
 .register {
     margin-right: 20px;
@@ -54,6 +59,24 @@ ul {
     top: 100px;
     right: 10%;
     padding: 60px; 
+    padding-right: 1    0px;
     border-radius: 20px;
     box-shadow: 5px 10px 18px #888888;
+    justify-content: space-evenly;
+   
+    
 }
+
+.start-registeration > div > h3{
+    margin-top: 1px;
+    color: gray;
+}
+
+.start-registeration > div > p {
+    color: #2c2c2e;
+}
+
+.start-registeration > div > p {
+    line-height: 2.5em;
+}
+
