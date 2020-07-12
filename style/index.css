@@ -124,10 +124,8 @@ button:hover {opacity: 1}
 }
 
 .fa-facebook {
-  background: #000;
-  color: white;
-  padding: 2px;
-  width: 15px;
+ background: none;
+  color: #000;
 }
 
 .fa-twitter {
@@ -141,9 +139,9 @@ button:hover {opacity: 1}
 
 .about {
     margin-left: 128px;
-    margin-top: 250px;
+    margin-top: 200px;
     width: 80%;
-    height: 400px;
+    height: 350px;
     border: 1px ;
     background-color: white;
     padding: 60px; 
@@ -153,6 +151,12 @@ button:hover {opacity: 1}
     
 }
 
+.about > p {
+    padding-right: 50px;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
 .aboutOne {
     display: flex;
     justify-content: space-evenly;
@@ -160,7 +164,7 @@ button:hover {opacity: 1}
 
 .aboutOne > h3 {
     margin-left: 300px;
-    mar
+   
 }
 
 .image {
@@ -168,3 +172,19 @@ button:hover {opacity: 1}
     top: 600px;
     left: 250px;
 }
+
+.social {
+    display: flex;
+    flex-direction: column;
+   }
+
+.fa {
+    margin-left: auto;
+    margin: 0px;
+    padding: 6px;
+       
+}  
+
+.fa:hover {
+    background-color: none;
+} 
