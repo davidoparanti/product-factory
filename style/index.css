@@ -209,13 +209,16 @@ div.experience {
 .experience ul {
     list-style-type: none;
     text-align: center;
-    border: 2px solid black;
     padding: 10px;
-    //width: 60%;
+    
 }
 
 .experience ul li {
     display: inline;
-    margin-left: 10px;
-    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0px;
+}
+.experience ul:nth-child(1) {
+    border-left: none;
 }
