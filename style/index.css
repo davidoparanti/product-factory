@@ -201,3 +201,21 @@ div.experience {
     border-radius: 20px;
     box-shadow: 5px 10px 10px #ebdfdf;
 }
+
+.experience h2 {
+    text-align: center;
+}
+
+.experience ul {
+    list-style-type: none;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    //width: 60%;
+}
+
+.experience ul li {
+    display: inline;
+    margin-left: 10px;
+    text-align: center;
+}
