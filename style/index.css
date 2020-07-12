@@ -81,7 +81,17 @@ a:hover {
 .start-registeration > div > h3{
     margin-top: 1px;
     color: gray;
+    
 }
+
+/* .start-registeration > div > h3::after {
+    content: OI/OX;
+    z-index: 10;
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 10pxs;
+} */
 
 .start-registeration > div > p {
     color: #2c2c2e;
@@ -221,4 +231,34 @@ div.experience {
 }
 .experience ul:nth-child(1) {
     border-left: none;
+}
+.experienceJourney {
+    text-align: center;
+    justify-content: center;
+}
+
+table, td, th {
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+
+table {
+  
+  width: 80%;
+  justify-content: center;
+  margin-left: 10%;
+  border-radius: 15px;
+}
+
+tr {
+   cursor: pointer; 
+   height: 50px;
+   border-radius: 15px;
+}
+
+.active {
+    background-color: black;
+    color: white;
+    
 }
