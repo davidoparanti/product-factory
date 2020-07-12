@@ -203,7 +203,7 @@ div.experience {
     margin-top: 40px;
     margin-left: 128px;
     width: 80%;
-    height: 350px;
+    height: 450px;
     border: 1px ;
     background-color: white;
     padding: 60px; 
@@ -214,6 +214,7 @@ div.experience {
 
 .experience h2 {
     text-align: center;
+    margin-top: 0px;
 }
 
 .experience ul {
@@ -261,4 +262,13 @@ tr {
     background-color: black;
     color: white;
     
+}
+
+.product {
+    display: flex;
+}
+
+.product > p {
+    line-height: 2em;
+    padding: 15px;
 }
