@@ -160,5 +160,6 @@ button:hover {opacity: 1}
 
 .image {
     position: absolute;
-    top: 450px;
+    top: 600px;
+    left: 250px;
 }
