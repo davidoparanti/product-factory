@@ -155,7 +155,12 @@ button:hover {opacity: 1}
 
 .aboutOne {
     display: flex;
-    justify-content: first baseline;
+    justify-content: space-evenly;
+}
+
+.aboutOne > h3 {
+    margin-left: 300px;
+    mar
 }
 
 .image {
