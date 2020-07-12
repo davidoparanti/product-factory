@@ -68,7 +68,7 @@ a:hover {
     padding: 60px; 
     padding-right: 1    0px;
     border-radius: 20px;
-    box-shadow: 5px 10px 18px #888888;
+    box-shadow: 5px 10px 10px #ebdfdf;
     justify-content: space-evenly;
    
     
@@ -133,4 +133,19 @@ button:hover {opacity: 1}
 .fa-instagram {
   background: none;
   color: #000;
+}
+
+.about {
+    margin-left: 128px;
+    margin-top: 120px;
+    display: flex;
+    width: 80%;
+    height: 400px;
+    border: 1px ;
+    background-color: white;
+    padding: 60px; 
+    padding-right: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px #ebdfdf;
+    justify-content: space-evenly;
 }
