@@ -28,7 +28,7 @@ nav {
     background-color: black;
   }
 
-ul {
+nav ul {
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
@@ -188,3 +188,16 @@ button:hover {opacity: 1}
 .fa:hover {
     background-color: none;
 } 
+
+div.experience {
+    margin-top: 40px;
+    margin-left: 128px;
+    width: 80%;
+    height: 350px;
+    border: 1px ;
+    background-color: white;
+    padding: 60px; 
+    padding-right: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px #ebdfdf;
+}
