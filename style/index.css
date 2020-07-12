@@ -155,7 +155,7 @@ button:hover {opacity: 1}
 
 .aboutOne {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: first baseline;
 }
 
 .image {
