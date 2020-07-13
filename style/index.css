@@ -103,6 +103,7 @@ a:hover {
 
 button {
   background-color: #f4511e;
+  width: 60%;
   border: none;
   color: white;
   padding: 8px 16px;
