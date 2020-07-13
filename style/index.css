@@ -272,3 +272,15 @@ tr {
     line-height: 2em;
     padding: 15px;
 }
+
+.session {
+    margin-top: 10px;
+    margin-left: 128px;
+    width: 80%;
+    border: 1px ;
+    background-color: white;
+    padding: 60px; 
+    padding-right: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px #ebdfdf;
+}
